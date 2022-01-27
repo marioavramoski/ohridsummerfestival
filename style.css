@@ -1,0 +1,876 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+p {
+    color: aliceblue;
+}
+
+/*HEAD*/
+
+.head {
+    width: auto;
+    height: 100vh;
+    position: relative;
+}
+
+.video-container video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.video-container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    top: 25%;
+}
+
+.logoh1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.imgohrid img {
+    width: 100%;
+    height: auto;
+    /*    margin-left: 50px;*/
+}
+
+.ohrid {
+    color: aliceblue;
+    font-size: 350%;
+}
+
+/*HEAD*/
+
+/*SECTIONONE*/
+
+.about {
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+.about h3 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 350%;
+    /*    margin-top: 100px;*/
+}
+
+.aboutus {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.aboutus img {
+    width: 33.8%;
+    height: auto;
+    padding: 20px;
+}
+
+.aboutus p {
+    color: aliceblue;
+    font-size: 150%;
+    padding: 50px;
+    /*    width: 150%;*/
+    /*    height: 300%;*/
+}
+
+
+.pone {
+    display: flex;
+    align-items: center;
+
+}
+
+.psecond {
+    display: flex;
+    align-items: center;
+}
+
+/*
+.about:after {
+    display: none;
+    content: "";
+    
+}
+*/
+/*SECTIONONE*/
+
+/*SECTION ABOUT2*/
+
+.about2 {
+    width: 100%;
+    height: auto;
+    /*    display: flex;*/
+    /*    justify-content: center;*/
+    margin: 0 auto;
+}
+
+.artist {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+
+}
+
+.about2 h3 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 350%;
+}
+
+.art {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.art img {
+    width: 30%;
+    height: auto;
+    padding: 30px;
+}
+
+.art p {
+    font-size: 150%;
+    padding: 50px;
+}
+
+/*SECTION ABOUT2*/
+/*GALERY*/
+
+.galery h3 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 350%;
+}
+
+
+.galery {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img img {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+    opacity: 0.6;
+}
+
+
+.img img:hover {
+    opacity: 1;
+    transform: scale(2);
+    transition: transform 0.7s;
+    overflow: auto;
+    z-index: 1;
+/*
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    padding: 0;
+*/
+}
+
+
+/*GALERY*/
+
+/*CONTACT*/
+.contact {
+    width: 70%;
+    height: auto;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 5px solid rgba(255, 255, 255, 0.72);
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: rgba(255, 255, 255, 0);
+    color: aliceblue;
+    font-size: 80%;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgba(0, 0, 0, 0.47);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: rgba(126, 126, 126, 0.21);
+    transform: scale(1.2);
+    transition: transform 0.4s;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    color: #ffffff;
+    font-size: 120%;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.contact h3 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 350%;
+}
+
+/*CONTACT*/
+
+/*FOOTER*/
+footer {
+    background: rgba(0, 0, 0, 0.63);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 60px;
+    margin: auto;
+}
+
+.footer a {
+    text-decoration: none;
+    text-decoration-style: none;
+    font-size: 200%;
+    color: rgb(126, 126, 126);
+}
+
+.footer a:hover {
+    color: aliceblue;
+    transform: scale(1.4);
+    transition: transform 0.4s;
+}
+
+/*FOOTER*/
+/*NAV*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.47);
+    width: 100%;
+    height: 60px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 60px;
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.navbar a {
+    margin-right: 40px;
+    font-size: 180%;
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+}
+
+.navbar a:hover {
+    color: aliceblue;
+    transform: scale(1.4);
+    transition: transform 0.6s;
+}
+
+/*NAV*/
+
+/*MEDIA*/
+@media only screen and (max-width: 480px) {
+    .navbar a {
+        display: flex;
+        justify-content: center;
+        font-size: 100%;
+        margin: 0 auto;
+
+    }
+
+    .logoh1 {
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+
+    .imgohrid {
+        display: block;
+        margin-top: 80px;
+        padding: 0;
+        width: 60%;
+        height: auto;
+        margin-bottom: 150px;
+    }
+
+    .ohrid {
+        font-size: 200%;
+    }
+
+    .about h3 {
+        font-size: 250%;
+    }
+
+    .pone,
+    .psecond {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .pone img,
+    .psecond img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .pone p,
+    .psecond p {
+        /*        width: 80%;*/
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+
+    .about2 h3 {
+        font-size: 250%;
+    }
+
+    .art {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+
+    .art img {
+        width: 80%;
+    }
+
+    .art p {
+        margin: 0;
+        padding: 10px;
+    }
+
+
+    .galery h3 {
+        font-size: 250%;
+    }
+
+    .img img {
+        width: 100%;
+        height: auto;
+        opacity: 1;
+        border: none;
+    }
+
+    .img img:hover {
+        transform: none;
+        border: none;
+        overflow: hidden;
+        transition: none;
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .contact h3 {
+        font-size: 250%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .footer {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+
+    .navbar a {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        font-size: 120%;
+        margin: 0 auto;
+
+    }
+
+    .logoh1 {
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+    }
+
+    .imgohrid {
+        display: block;
+        padding: 0;
+        width: 60%;
+        height: auto;
+        margin-bottom: 150px;
+    }
+
+    .ohrid {
+        font-size: 200%;
+    }
+
+    .about h3 {
+        font-size: 250%;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .pone,
+    .psecond {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .pone img,
+    .psecond img {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .pone p,
+    .psecond p {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+
+    .about2 h3 {
+        font-size: 250%;
+    }
+
+    .art {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+
+    .art img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .art p {
+        margin: 0;
+        padding: 10px;
+    }
+
+
+    .galery h3 {
+        font-size: 250%;
+    }
+
+    .img img {
+        width: 80%;
+        height: auto;
+        opacity: 1;
+        border: none;
+    }
+
+    .img img:hover {
+        transform: none;
+        border: none;
+        overflow: hidden;
+        transition: none;
+        margin: 0;
+/*        padding: 0;*/
+    }
+
+    .contact h3 {
+        font-size: 250%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .footer {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .navbar a {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        font-size: 150%;
+        margin: 0 auto;
+
+    }
+    
+    .logoh1 {
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 100%;
+        margin-top: -15%;
+    }
+
+    .imgohrid {
+        display: block;
+        padding: 0;
+        width: 60%;
+        height: auto;
+        margin-bottom: 100px;
+    }
+
+    .ohrid {
+        text-align: center;
+        width: 100%;
+        font-size: 200%;
+    }
+
+    .about h3 {
+        font-size: 280%;
+    }
+
+    .aboutus {
+        width: 100%;
+    }
+
+    .pone,
+    .psecond {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .pone img,
+    .psecond img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .pone p,
+    .psecond p {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+
+    .about2 h3 {
+        font-size: 280%;
+    }
+
+    .art {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .art img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .art p {
+        margin: 0;
+        padding: 10px;
+    }
+
+
+    .galery h3 {
+        font-size: 280%;
+    }
+
+    .img img {
+        width: 70%;
+        height: auto;
+        opacity: 1;
+        border: none;
+    }
+
+    .img img:hover {
+        transform: none;
+        border: none;
+        overflow: hidden;
+        transition: none;
+        margin: 0;
+/*        padding: 0;*/
+    }
+
+    .contact h3 {
+        font-size: 250%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .footer {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+    }
+
+}
+    
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    
+    .navbar a {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        font-size: 150%;
+        margin: 0 auto;
+
+    }
+    
+    .logoh1 {
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 100%;
+        margin-top: -15%;
+    }
+
+    .imgohrid {
+        display: block;
+        padding: 0;
+        width: 60%;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .ohrid {
+        text-align: center;
+        width: 100%;
+        font-size: 250%;
+    }
+
+    .about h3 {
+        font-size: 300%;
+    }
+
+    .aboutus {
+        width: 100%;
+    }
+
+    .pone,
+    .psecond {
+        width: 100%;
+        height: auto;
+    }
+
+    .pone img,
+    .psecond img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .pone p,
+    .psecond p {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+
+    .about2 h3 {
+        font-size: 300%;
+    }
+
+    .art {
+        width: 80%;
+        height: auto;
+/*        display: block;*/
+        margin: 0 auto;
+    }
+
+    .art img {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .art p {
+        font-size: 180%;
+        margin: 0;
+        padding: 10px;
+    }
+
+
+    .galery h3 {
+        font-size: 300%;
+    }
+
+
+    .img img {
+        display: flex;
+        height: auto;
+        opacity: 1;
+        border: none;
+    }
+
+    .img img:hover {
+        transform: none;
+        border: none;
+        overflow: hidden;
+        transition: none;
+        margin: 0;
+/*        padding: 0;*/
+    }
+
+    .contact h3 {
+        font-size: 250%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .footer {
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+    }
+
+}
+    
+@media only screen and (min-width: 1201px) and (max-width: 1600px) {
+    
+    .artist {
+        width: 100%;
+        height: auto;
+    }
+    .art {
+        width: 80%;
+    }
+    .art img {
+        width: 40%;
+    }
+    .art p {
+        font-size: 170%;
+    }
+    
+    .img img {
+        width: 30%;
+    }
+    
+}
+
+
+/*MEDIA*/
+
+
